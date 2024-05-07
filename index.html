@@ -10,7 +10,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 	<link rel="stylesheet" type='text/css' href="style.css"/>
-	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+	<script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
 	  
 	<!-- DO NOT CHANGE ANYTHING ABOVE THIS LINE-->
 
@@ -26,7 +26,7 @@
 	    <div class="header">
 
 	      <div class="container">
-	        <h1 id="app_title">%title%</h1>
+	        <h1 id="app_title">{{ title }}</h1>
 	      </div>
 
 	    </div>
@@ -60,7 +60,7 @@
 	    <div class="footer">
 	      <div class="container">
 			<a id="github" class="btn btn-lg btn-warning">
-				<i class="bi bi-github me-2"></i>%owner%
+				<i class="bi bi-github me-2">{{ github }}</i>
 	  		</a>
 	      </div>
 	    </div>
