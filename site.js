@@ -36,7 +36,7 @@ const vue_app = Vue.createApp({
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
             title: 'IMDB + George’s Top 8 Movies',
             owner: 'George Fischetti',
-            github: ' https://github.com/ooomega55/NJIT-3_StarterFiles'
+            github: 'https://github.com/ooomega55/NJIT-3_StarterFiles'
          
       }
     },
