@@ -36,54 +36,60 @@ const vue_app = Vue.createApp({
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
             title: 'IMDB + George’s Top 8 Movies',
             owner: 'George Fischetti',
-            github: 'https://github.com/ooomega55/NJIT-3_StarterFiles'
+            github: 'https://github.com/ooomega55/NJIT-3_StarterFiles',
+            like: 0
          
       }
     },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
-            /*function getMonthText(dateArray) {
-                  switch (month){
+            getMonthText(dateArray) {
+                  let month = ""
+                  switch (dateArray[1]){
                         case 1:
-                              released = 'January';
+                              month = 'January';
                               break;
                         case 2:
-                              released = 'February';
+                              month = 'February';
                               break;
                         case 3:
-                              released = 'March';
+                              month = 'March';
                               break;
                         case 4:
-                              released = 'April';
+                              month = 'April';
                               break;
                         case 5:
-                              released = 'May';
+                              month = 'May';
                               break;
                         case 6:
-                              released = 'June';
+                              month = 'June';
                               break;
                         case 7:
-                              released = 'July';
+                              month = 'July';
                               break;
                         case 8:
-                              released = 'August';
+                              month = 'August';
                               break;
                         case 9:
-                              released = 'September';
+                              month = 'September';
                               break;
                         case 10:
-                              released = 'October';
+                              month = 'October';
                               break;
                         case 11:
-                              released = 'November';
+                              month = 'November';
                               break;
                         case 12:
-                              released = 'December';
+                              month = 'December';
                               break;
                         
 
                   }
-                  
+                  return month + " " + dateArray[2] + ", " + dateArray[0]
+            }
+
+            /*addLike () {
+                  this.like += 1
             }*/
       }
 })
