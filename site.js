@@ -86,11 +86,20 @@ const vue_app = Vue.createApp({
 
                   }
                   return month + " " + dateArray[2] + ", " + dateArray[0]
+            },
+
+            posterClick(movie){
+                  movie.posterindex++
+                  if (movie.posterindex > movie.posters.length - 1){
+                        movie.posterindex = 0
+                  }
+            },
+            timeText(min){
+                  let hours = Math.floor(min / 60)
+                  let minutes = min % 60
+                  return hours + 'h ' + minutes + 'm '
             }
 
-            /*addLike () {
-                  this.like += 1
-            }*/
       }
 })
 
