@@ -37,7 +37,6 @@ const vue_app = Vue.createApp({
             title: 'IMDB + George’s Top 8 Movies',
             owner: 'George Fischetti',
             github: 'https://github.com/ooomega55/NJIT-3_StarterFiles',
-            like: 0
          
       }
     },
