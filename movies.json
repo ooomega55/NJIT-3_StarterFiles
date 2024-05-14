@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Christmas Vacation",
+            "iscore": 8.9,
+            "rating": "PG-13",
+            "runtime": 152,
+            "released": [2008, 7, 18],
+            "country": "USA",
+            "posters": ["img/darkknight.jpg", "img/darkknight2.jpg"],
+            "imdb": "http://www.imdb.com/title/tt0468569",
+            "website": "http://www.42entertainment.com/work/whysoserious",
+            "likes": 828,
+            "dislikes": 127,
+            "posterindex": 0
+      },
+      {
+            "title": "My movie",
+            "iscore": 8.9,
+            "rating": "PG-13",
+            "runtime": 152,
+            "released": [2008, 7, 18],
+            "country": "USA",
+            "posters": ["img/darkknight.jpg", "img/darkknight2.jpg"],
+            "imdb": "http://www.imdb.com/title/tt0468569",
+            "website": "http://www.42entertainment.com/work/whysoserious",
+            "likes": 828,
+            "dislikes": 127,
+            "posterindex": 0
+      },
+      {
+            "title": "My movie",
+            "iscore": 8.9,
+            "rating": "PG-13",
+            "runtime": 152,
+            "released": [2008, 7, 18],
+            "country": "USA",
+            "posters": ["img/darkknight.jpg", "img/darkknight2.jpg"],
+            "imdb": "http://www.imdb.com/title/tt0468569",
+            "website": "http://www.42entertainment.com/work/whysoserious",
+            "likes": 828,
+            "dislikes": 127,
+            "posterindex": 0
       }
 ]
